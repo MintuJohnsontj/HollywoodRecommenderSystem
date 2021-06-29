@@ -2,7 +2,7 @@
 
 ## Features
   1. Recommendation system using cosine similarity metrics
-  2. Naive Bayes classifier for sentimental analysis
+  2. Sentimental analysis using Naive Bayes classifier. 
 
 ## Model Pipeline
 ### 1. Data Collection
