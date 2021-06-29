@@ -3,6 +3,7 @@
 ## Features
   1. Recommendation system using cosine similarity metrics.
   2. Sentimental analysis using Naive Bayes classifier. 
+  3. Website for recommendation and sentimental analysis using Python Flask framework
 
 ## Model Pipeline
 ### 1. Data Collection
