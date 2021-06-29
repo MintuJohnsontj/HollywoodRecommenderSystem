@@ -1,4 +1,4 @@
-# HollywoodRecommendationSystem
+# Hollywood Movie Recommendation System
 
 ## Features
   1. Recommendation system using cosine similarity metrics.
