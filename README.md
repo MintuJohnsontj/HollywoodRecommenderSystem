@@ -1,7 +1,7 @@
 # HollywoodRecommendationSystem
 
 ## Features
-  1. Recommendation system using cosine similarity metrics
+  1. Recommendation system using cosine similarity metrics.
   2. Sentimental analysis using Naive Bayes classifier. 
 
 ## Model Pipeline
