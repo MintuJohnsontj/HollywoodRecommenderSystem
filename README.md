@@ -27,4 +27,8 @@
       - Identify the stopwords.
       - Convert the words into vectors using TF-IDF Vectorizer.
       - Split the data for training and testing.
-### 3. Model Building and Training 
+#### 3. Model Building, Training and Evaluation 
+      - Use Multinomial Naive Bayes for sentiment classification 
+      - Calculate accuracy score for model evaluation
+#### 4. Model Deployment
+      - Use Flask framework for website development
