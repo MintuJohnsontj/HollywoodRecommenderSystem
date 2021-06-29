@@ -18,4 +18,13 @@
   [List of American films of 2021](https://en.wikipedia.org/wiki/List_of_American_films_of_2021)  
     
 ### 2. Data Preprocessing
+####  a) Preprocessing for Recommendation System
+      - Read the data using Pandas dataframes.
+      - Select the required features only.
+      - Handle the null values.
+      - Save data as csv file for future purposes.
+####  b) Preprocessing for Sentimental Analysis
+      - Identify the stopwords.
+      - Convert the words into vectors using TF-IDF Vectorizer.
+      - Split the data for training and testing.
 ### 3. Model Building and Training 
