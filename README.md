@@ -12,6 +12,9 @@
 
     2. https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset
 [5000 Movie dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
+
+    3. https://en.wikipedia.org/wiki/List_of_American_films_of_2021
+  [List of American films of 2021](https://en.wikipedia.org/wiki/List_of_American_films_of_2021)  
     
 ### 2. Data Preprocessing
 ### 3. Model Building and Training 
