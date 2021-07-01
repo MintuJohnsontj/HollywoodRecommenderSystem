@@ -32,7 +32,10 @@
       - Calculate accuracy score for model evaluation
 ### 4. Model Deployment
       - Use Flask framework for website development
-     
+
+# Cosine Similarity
+  Cosine similarity measures the similarity between two vectors of an inner product space. It is measured by the cosine of the angle between two vectors and determines whether two vectors are pointing in roughly the same direction. It is often used to measure document similarity in text analysis.
+  
 # Multinomial Naive Bayes
   Naive Bayes model applies Bayes theorem with a Naive assumption of no relationship between different features. According to Bayes theorem:
 P(A|B) = P(A) * P(B|A)/P(B)
