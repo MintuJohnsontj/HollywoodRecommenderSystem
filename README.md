@@ -32,3 +32,13 @@
       - Calculate accuracy score for model evaluation
 ### 4. Model Deployment
       - Use Flask framework for website development
+     
+# Multinomial Naive Bayes
+  Naive Bayes model applies Bayes theorem with a Naive assumption of no relationship between different features. According to Bayes theorem:
+P(A|B) = P(A) * P(B|A)/P(B)
+
+Where we are calculating the probability of class A when predictor B is already provided.
+
+P(B) = prior probability of B; P(A) = prior probability of class A; P(B|A) = occurrence of predictor B given class A probability.
+
+  Assuming Gaussian distribution will give rise to Gaussian Naive Bayes (GNB) or multinomial distribusion will give Multinomial Naive Bayes (MNB).
