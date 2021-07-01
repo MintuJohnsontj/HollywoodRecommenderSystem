@@ -45,6 +45,22 @@ On the other hand, if our task is one of Machine Translation, Question-Answering
 ### 2. TF-IDF
 TF-IDF is an abbreviation for Term Frequency Inverse Document Frequency. This is very common algorithm to transform text into a meaningful representation of numbers which is used to fit machine algorithm for prediction.
 
+## Model Evaluation
+### AUC-ROC curve
+https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/
+[Refer AUC-ROC curve](https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/)
+The Receiver Operator Characteristic (ROC) curve is an evaluation metric for binary classification problems. It is a probability curve that plots the TPR against FPR at various threshold values and essentially separates the ‘signal’ from the ‘noise’. The Area Under the Curve (AUC) is the measure of the ability of a classifier to distinguish between classes and is used as a summary of the ROC curve.
+
+_The higher the AUC, the better the performance of the model at distinguishing between the positive and negative classes._
+
+When AUC = 1, then the classifier is able to perfectly distinguish between all the Positive and the Negative class points correctly. If, however, the AUC had been 0, then the classifier would be predicting all Negatives as Positives, and all Positives as Negatives.
+
+When 0.5<AUC<1, there is a high chance that the classifier will be able to distinguish the positive class values from the negative class values. This is so because the classifier is able to detect more numbers of True positives and True negatives than False negatives and False positives.
+
+When AUC=0.5, then the classifier is not able to distinguish between Positive and Negative class points. Meaning either the classifier is predicting random class or constant class for all the data points.
+
+So, the higher the AUC value for a classifier, the better its ability to distinguish between positive and negative classes.
+
 ## Cosine Similarity
   Cosine similarity measures the similarity between two vectors of an inner product space. It is measured by the cosine of the angle between two vectors and determines whether two vectors are pointing in roughly the same direction. It is often used to measure document similarity in text analysis.
   
