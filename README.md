@@ -8,14 +8,14 @@
 ## Model Pipeline
 ### 1. Data Collection
     Collect the required data from kaggle and wikipedia web scraping.
-    1. https://www.kaggle.com/rounakbanik/the-movies-dataset
-[The Movies Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset)
+    
+1. [The Movies Dataset](https://www.kaggle.com/rounakbanik/the-movies-dataset)
 
-    2. https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset
-[5000 Movie dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
+    
+2. [5000 Movie dataset](https://www.kaggle.com/carolzhangdc/imdb-5000-movie-dataset)
 
-    3. https://en.wikipedia.org/wiki/List_of_American_films_of_2021
-  [List of American films of 2021](https://en.wikipedia.org/wiki/List_of_American_films_of_2021)  
+    
+3. [List of American films of 2021](https://en.wikipedia.org/wiki/List_of_American_films_of_2021)  
     
 ### 2. Data Preprocessing
 ####  a) Preprocessing for Recommendation System
@@ -48,8 +48,9 @@ TF-IDF is an abbreviation for Term Frequency Inverse Document Frequency. This is
 ## Model Evaluation
 ### AUC-ROC curve
 https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/
-[Refer AUC-ROC curve](https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/)
-The Receiver Operator Characteristic (ROC) curve is an evaluation metric for binary classification problems. It is a probability curve that plots the TPR against FPR at various threshold values and essentially separates the ‘signal’ from the ‘noise’. The Area Under the Curve (AUC) is the measure of the ability of a classifier to distinguish between classes and is used as a summary of the ROC curve.
+[](https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/)
+
+  The Receiver Operator Characteristic (ROC) curve is an evaluation metric for binary classification problems. It is a probability curve that plots the TPR against FPR at various threshold values and essentially separates the ‘signal’ from the ‘noise’. The Area Under the Curve (AUC) is the measure of the ability of a classifier to distinguish between classes and is used as a summary of the ROC curve.
 
 _The higher the AUC, the better the performance of the model at distinguishing between the positive and negative classes._
 
