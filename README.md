@@ -58,6 +58,7 @@ P(B) = prior probability of B; P(A) = prior probability of class A; P(B|A) = occ
 ### Continuous data for Multinomial NB 
 https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/
 [](https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/)
+
  For continuous features, there are essentially two choices: discretization and continuous Naive Bayes.
 Discretization works by breaking the data into categorical values. The simplest discretization is uniform binning, which creates bins with fixed range. There are, of course, smarter and more complicated ways such as Recursive minimal entropy partitioning or SOM based partitioning.
   
