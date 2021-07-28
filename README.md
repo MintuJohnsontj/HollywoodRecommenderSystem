@@ -45,6 +45,16 @@ On the other hand, if our task is one of Machine Translation, Question-Answering
 ### 2. TF-IDF
 TF-IDF is an abbreviation for Term Frequency Inverse Document Frequency. This is very common algorithm to transform text into a meaningful representation of numbers which is used to fit machine algorithm for prediction.
 
+## Multinomial Naive Bayes
+  Naive Bayes model applies Bayes theorem with a Naive assumption of no relationship between different features. According to Bayes theorem:
+P(A|B) = P(A) * P(B|A)/P(B)
+
+Where we are calculating the probability of class A when predictor B is already provided.
+
+P(B) = prior probability of B; P(A) = prior probability of class A; P(B|A) = occurrence of predictor B given class A probability.
+
+  Assuming Gaussian distribution will give rise to Gaussian Naive Bayes (GNB) or multinomial distribusion will give Multinomial Naive Bayes (MNB).
+  
 ## Model Evaluation
 ### AUC-ROC curve
 https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/
@@ -63,17 +73,7 @@ When AUC=0.5, then the classifier is not able to distinguish between Positive an
 So, the higher the AUC value for a classifier, the better its ability to distinguish between positive and negative classes.
 
 ## Cosine Similarity
-  Cosine similarity measures the similarity between two vectors of an inner product space. It is measured by the cosine of the angle between two vectors and determines whether two vectors are pointing in roughly the same direction. It is often used to measure document similarity in text analysis.
-  
-## Multinomial Naive Bayes
-  Naive Bayes model applies Bayes theorem with a Naive assumption of no relationship between different features. According to Bayes theorem:
-P(A|B) = P(A) * P(B|A)/P(B)
-
-Where we are calculating the probability of class A when predictor B is already provided.
-
-P(B) = prior probability of B; P(A) = prior probability of class A; P(B|A) = occurrence of predictor B given class A probability.
-
-  Assuming Gaussian distribution will give rise to Gaussian Naive Bayes (GNB) or multinomial distribusion will give Multinomial Naive Bayes (MNB).
+  Cosine similarity measures the similarity between two vectors of an inner product space. It is measured by the cosine of the angle between two vectors and determines whether two vectors are pointing in roughly the same direction. It is often used to measure document similarity in text analysis.  
   
  ## Flask Framework
  Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.
