@@ -81,10 +81,7 @@ When 0.5<AUC<1, there is a high chance that the classifier will be able to disti
 
 When AUC=0.5, then the classifier is not able to distinguish between Positive and Negative class points. Meaning either the classifier is predicting random class or constant class for all the data points.
 
-So, the higher the AUC value for a classifier, the better its ability to distinguish between positive and negative classes.
-
-## Cosine Similarity
-  Cosine similarity measures the similarity between two vectors of an inner product space. It is measured by the cosine of the angle between two vectors and determines whether two vectors are pointing in roughly the same direction. It is often used to measure document similarity in text analysis.  
+So, the higher the AUC value for a classifier, the better its ability to distinguish between positive and negative classes. 
  
  ## Wesite Development 
  ### Flask Framework
@@ -106,4 +103,6 @@ MarkupSafe is a string handling library for the Python programming language, lic
 #### 4. ItsDangerous
 ItsDangerous is a safe data serialization library for the Python programming language, licensed under a BSD license. It is used to store the session of a Flask application in a cookie without allowing users to tamper with the session contents.
 
+### Cosine Similarity
+  Cosine similarity measures the similarity between two vectors of an inner product space. It is measured by the cosine of the angle between two vectors and determines whether two vectors are pointing in roughly the same direction. It is often used to measure document similarity in text analysis. 
 
