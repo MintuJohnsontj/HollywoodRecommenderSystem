@@ -56,8 +56,8 @@ P(B) = prior probability of B; P(A) = prior probability of class A; P(B|A) = occ
   Assuming Gaussian distribution will give rise to Gaussian Naive Bayes (GNB) or multinomial distribusion will give Multinomial Naive Bayes (MNB).
 
 ### Continuous data for Multinomial NB 
-https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/
-[](https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/)
+https://towardsdatascience.com/naive-bayes-explained-9d2b96f4a9c0
+[](https://towardsdatascience.com/naive-bayes-explained-9d2b96f4a9c0)
 
  For continuous features, there are essentially two choices: discretization and continuous Naive Bayes.
  
@@ -68,8 +68,8 @@ Discretization works by breaking the data into categorical values. The simplest 
   
 ## Model Evaluation
 ### AUC-ROC curve
-https://towardsdatascience.com/naive-bayes-explained-9d2b96f4a9c0
-[](https://towardsdatascience.com/naive-bayes-explained-9d2b96f4a9c0)
+https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/
+[](https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/)
 
   The Receiver Operator Characteristic (ROC) curve is an evaluation metric for binary classification problems. It is a probability curve that plots the TPR against FPR at various threshold values and essentially separates the ‘signal’ from the ‘noise’. The Area Under the Curve (AUC) is the measure of the ability of a classifier to distinguish between classes and is used as a summary of the ROC curve.
 
