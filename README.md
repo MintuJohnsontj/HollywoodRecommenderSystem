@@ -54,6 +54,10 @@ Where we are calculating the probability of class A when predictor B is already 
 P(B) = prior probability of B; P(A) = prior probability of class A; P(B|A) = occurrence of predictor B given class A probability.
 
   Assuming Gaussian distribution will give rise to Gaussian Naive Bayes (GNB) or multinomial distribusion will give Multinomial Naive Bayes (MNB).
+
+### Continuous data for Multinomial NB 
+ For continuous features, there are essentially two choices: discretization and continuous Naive Bayes.
+Discretization works by breaking the data into categorical values. The simplest discretization is uniform binning, which creates bins with fixed range. There are, of course, smarter and more complicated ways such as Recursive minimal entropy partitioning or SOM based partitioning.
   
 ## Model Evaluation
 ### AUC-ROC curve
