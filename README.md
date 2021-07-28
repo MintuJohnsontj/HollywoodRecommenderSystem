@@ -56,8 +56,8 @@ P(B) = prior probability of B; P(A) = prior probability of class A; P(B|A) = occ
   Assuming Gaussian distribution will give rise to Gaussian Naive Bayes (GNB) or multinomial distribusion will give Multinomial Naive Bayes (MNB).
 
 ### Continuous data for Multinomial NB 
-https://towardsdatascience.com/naive-bayes-explained-9d2b96f4a9c0
-[](https://towardsdatascience.com/naive-bayes-explained-9d2b96f4a9c0)
+https://flask.palletsprojects.com/en/2.0.x/
+[](https://flask.palletsprojects.com/en/2.0.x/)
 
  For continuous features, there are essentially two choices: discretization and continuous Naive Bayes.
  
