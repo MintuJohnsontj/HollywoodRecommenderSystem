@@ -85,11 +85,12 @@ So, the higher the AUC value for a classifier, the better its ability to disting
 
 ## Cosine Similarity
   Cosine similarity measures the similarity between two vectors of an inner product space. It is measured by the cosine of the angle between two vectors and determines whether two vectors are pointing in roughly the same direction. It is often used to measure document similarity in text analysis.  
-  
- ## Flask Framework
+ 
+ ## Wesite Development 
+ ### Flask Framework
  Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.
 
-### Components:
+#### Components:
 The microframework Flask is part of the Pallets Projects (formerly Pocoo), and based on several others of them.
 
 #### 1. Werkzeug
@@ -105,4 +106,4 @@ MarkupSafe is a string handling library for the Python programming language, lic
 #### 4. ItsDangerous
 ItsDangerous is a safe data serialization library for the Python programming language, licensed under a BSD license. It is used to store the session of a Flask application in a cookie without allowing users to tamper with the session contents.
 
-Wesite 
+
