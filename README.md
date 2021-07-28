@@ -60,6 +60,7 @@ https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/
 [](https://www.analyticsvidhya.com/blog/2020/06/auc-roc-curve-machine-learning/)
 
  For continuous features, there are essentially two choices: discretization and continuous Naive Bayes.
+ The multinomial Naive Bayes classifier is suitable for classification with discrete features (e.g., word counts for text classification). The multinomial distribution normally requires integer feature counts. However, in practice, fractional counts such as tf-idf may also work.
 Discretization works by breaking the data into categorical values. The simplest discretization is uniform binning, which creates bins with fixed range. There are, of course, smarter and more complicated ways such as Recursive minimal entropy partitioning or SOM based partitioning.
   
 ## Model Evaluation
